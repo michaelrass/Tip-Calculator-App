@@ -1,0 +1,14 @@
+:root {
+	--primary-color: hsl(172, 67%, 45%);
+	--secondary-color: #fff;
+	--tertiary-color: #00474B;
+	--quaternary-color: #26C2AE;
+	--fifth-color: #9EBBBD;
+	--sixth-color: #5E7A7D;
+
+	--font-size-small: 			13px;
+	--font-size-medium: 			16px;
+	--font-size-large: 			20px;
+	--font-size-xl: 				24px;
+	--font-size-xxl: 				48px;
+}
