@@ -1,0 +1,13 @@
+.main__app-container {
+	background-color: var(--secondary-color);
+	border-radius: 1.25rem;
+	display: flex;
+	padding: 2rem;
+}
+
+.app-container__left-container {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}

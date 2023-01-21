@@ -10,13 +10,62 @@
 	<body>
 		<main class="main">
 			<img src="/assets/images/logo.svg" alt="A logo that says SPLITTER">
-			
 			<section class="main__app-container">
 				<div class="app-container__left-container">
+					<span class="left-container__input-title">
+						Bill
+					</span>
 
+					<div class="left-container__input-number-container">
+						<input type="number">
+						<img class="input-amount__image-icon" src="/assets/images/icons/icon-dollar.svg" alt="a person icon">
+					</div>
+					
+					<span class="left-container__input-title">
+						Select Tip %
+					</span>
+
+					<div class="left-container__percentage-buttons">
+						<button class="percentage-buttons__button">5%</button>
+						<button class="percentage-buttons__button">10%</button>
+						<button class="percentage-buttons__button">15%</button>
+						<button class="percentage-buttons__button">25%</button>
+						<button class="percentage-buttons__button">50%</button>
+						<input class="percentage-buttons__custom-input" type="number" name="percentage-buttons__custom">
+					</div>
+
+					<span class="left-container__input-title">
+						Number of People
+					</span>
+
+					<div class="left-container__input-people-container">
+						<input type="number">
+						<img class="input-amount__image-icon" src="/assets/images/icons/icon-person.svg" alt="a person icon">
+					</div>
 				</div>
-				<div class="app-container__right-container">
 
+				<div class="app-container__right-container">
+					<div>
+						<div>
+							<span>Tip Amount</span>
+							<span>/ person</span>
+						</div>
+						<div>
+							<span>$4.27</span>
+						</div>
+					</div>
+
+					<div>
+						<div>
+							<span>Total</span>
+							<span>/ person</span>
+						</div>
+						<div>
+							<span>$32.79</span>
+						</div>
+					</div>
+
+					<button>RESET</button>
 				</div>
 			</section>
 		</main>
