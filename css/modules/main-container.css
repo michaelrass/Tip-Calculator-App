@@ -1,0 +1,9 @@
+.main {
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--primary-color);
+	padding: 5rem 0 3rem 0;
+}
