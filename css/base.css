@@ -4,4 +4,6 @@ html {
 
 body {
 	font-family: 'Space-Mono';
+	max-width: 72rem;	/* desktop max-width 1440px */
+	margin: auto;
 }
